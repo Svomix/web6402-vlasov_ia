@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>DiffGenStories - история</title>
+</head>
+
+<body>
+<header class="main-header">
+    <div class="logo">
+        <a href="index.html" class="logo">
+            <img src="img/logo.svg" alt="DiffGenStories">
+            <span class="logo-title">DiffGenStories</span>
+        </a>
+    </div>
+    <div class="header-right">
+        <nav>
+            <a href="chat.html"> Диалог</a>
+            <a href="history.html" class="active"> История </a>
+            <a href="index.html"> Выход</a>
+        </nav>
+        <div class="user">
+            <img src="img/user.svg" alt="Профиль">
+            Гость
+        </div>
+    </div>
+</header>
+<main class="main-history">
+    <div class="table-container">
+        <h1> История генерации</h1>
+        <table>
+            <thead>
+            <tr>
+                <th>Превью</th>
+                <th> Промпт и текстовый контекст сцены</th>
+                <th> Используемая модель</th>
+                <th class="text-center"> Статус</th>
+                <th class="text-center"> Время создания</th>
+                <th class="text-center"> Действие</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><img src="img/scene1.svg" alt="Сцена"></td>
+                <td> Космическая станция</td>
+                <td> SDXL 1.0 + LoRA</td>
+                <td class="text-center"><span class="status">Готово</span></td>
+                <td class="text-center"> 14.8с</td>
+                <td class="chat-link"><a href="chat.html"> Открыть в диалоге</a></td>
+            </tr>
+            <tr>
+                <td><img src="img/scene2.svg" alt="Сцена"></td>
+                <td> Киберпанк город</td>
+                <td> Stable Diffusion 2.1</td>
+                <td class="text-center"><span class="status">Готово</span></td>
+                <td class="text-center"> 18.2с</td>
+                <td class="chat-link"><a href="chat.html"> Открыть в диалоге</a></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+</body>
+</html>

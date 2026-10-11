@@ -29,3 +29,16 @@
 > Омар Хайям
 > 
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Omar_Khayyam2.JPG" alt="Омар Хайям" width="300" />
+
+---
+
+***Лабораторная работа №2***
+---
+Сайт для генерации консистентных изображений DiffGenStories
+
+Добавлены:
+
+1. index.html
+2. chat.html
+3. history.html
+4. style.css
