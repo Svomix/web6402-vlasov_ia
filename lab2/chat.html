@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title> DiffGenStories - чат</title>
+</head>
+
+<body>
+<header class="main-header">
+    <div class="logo">
+        <a href="index.html" class="logo">
+            <img src="img/logo.svg" alt="DiffGenStories">
+            <span class="logo-title">DiffGenStories</span>
+        </a>
+    </div>
+    <div class="header-right">
+        <nav>
+            <a href="chat.html" class="active"> Диалог</a>
+            <a href="history.html"> История </a>
+            <a href="index.html"> Выход</a>
+        </nav>
+        <div class="user">
+            <img src="img/user.svg" alt="Профиль">
+            Гость
+        </div>
+    </div>
+</header>
+<main class="chat">
+    <div class="chat-history">
+        <h1> История чата </h1>
+        <a href="#" class="history-item">
+            <img src="img/scene1.svg" alt="Сцена" class="history-thumb">
+            <div class="history-info">
+                <h3 class="history-title">Космическая станция</h3>
+                <p class="history-desc">Исследование заброшенного орбитального модуля...</p>
+            </div>
+        </a>
+        <a href="#" class="history-item">
+            <img src="img/scene2.svg" alt="Сцена" class="history-thumb">
+            <div class="history-info">
+                <h3 class="history-title">Киберпанк город</h3>
+                <p class="history-desc">Неоновые улицы и дождь над небоскребами...</p>
+            </div>
+        </a>
+    </div>
+    <div class="chat-container">
+        <div class="chat-welcome">
+            <h2>Начните генерацию истории</h2>
+            <p>Опишите персонажей и локации - система разобьет текст на сцены с сохранением консистентности.</p>
+        </div>
+        <form class="chat-form" action="chat.html" method="POST">
+            <textarea name="message" placeholder="Опишите персонажей, сцену или действие..." rows="3"></textarea>
+            <div class="chat-form-bottom">
+                <button class="prompt_button" type="submit">-></button>
+            </div>
+        </form>
+    </div>
+</main>
+</body>
+</html>
