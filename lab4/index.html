@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>DiffGenStories - авторизация</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="registration.js" defer></script>
+</head>
+<body class="page">
+<header class="header">
+    <a href="index.html" class="header__logo">
+        <img src="img/logo.svg" alt="DiffGenStories" class="header__logo-img">
+        <span class="header__logo-title">DiffGenStories</span>
+    </a>
+</header>
+<main class="page__main">
+    <div class="login">
+        <h1 class="login__title">Вход в систему</h1>
+        <form action="chat.html" method="POST" class="login__form">
+            <label class="login__label">Ваш email:
+                <input type="email" required placeholder="example@mail.com" name="email" class="login__input">
+            </label>
+            <label class="login__label">Ваш пароль
+                <input type="password" required placeholder="1231231" name="password" class="login__input">
+            </label>
+            <div class="login__options">
+                <label class="login__label login__label_row">Запомнить меня
+                    <input type="checkbox" name="remember_me" class="login__checkbox">
+                </label>
+                <a href="#" class="login__link">Забыли пароль</a>
+            </div>
+            <button type="submit" class="login__button">Войти</button>
+        </form>
+    </div>
+</main>
+</body>
+</html>
