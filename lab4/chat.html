@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>DiffGenStories - чат</title>
+</head>
+
+<body class="page">
+<header class="header">
+    <a href="index.html" class="header__logo">
+        <img src="img/logo.svg" alt="DiffGenStories" class="header__logo-img">
+        <span class="header__logo-title">DiffGenStories</span>
+    </a>
+    <div class="header__right">
+        <nav class="nav">
+            <a href="chat.html" class="nav__link nav__link_active">Диалог</a>
+            <a href="history.html" class="nav__link">История</a>
+            <a href="index.html" class="nav__link">Выход</a>
+        </nav>
+        <div class="user">
+            <img src="img/user.svg" alt="Профиль" class="user__avatar">
+            <span class="user__name">Гость</span>
+        </div>
+    </div>
+</header>
+<main class="chat">
+    <div class="chat-history">
+        <h1 class="chat-history__title">История чата</h1>
+        <a href="#" class="history-item">
+            <img src="img/scene1.svg" alt="Сцена" class="history-item__preview">
+            <div class="history-item__info">
+                <h3 class="history-item__title">Космическая станция</h3>
+                <p class="history-item__desc">Исследование заброшенного орбитального модуля...</p>
+            </div>
+        </a>
+        <a href="#" class="history-item">
+            <img src="img/scene2.svg" alt="Сцена" class="history-item__preview">
+            <div class="history-item__info">
+                <h3 class="history-item__title">Киберпанк город</h3>
+                <p class="history-item__desc">Неоновые улицы и дождь над небоскребами...</p>
+            </div>
+        </a>
+    </div>
+    <div class="chat__container">
+        <div class="chat__welcome">
+            <h2 class="chat__welcome-title">Начните генерацию истории</h2>
+            <p class="chat__welcome-text">Опишите персонажей и локации - система разобьет текст на сцены с сохранением консистентности.</p>
+        </div>
+        <form class="chat-form" action="chat.html" method="POST">
+            <textarea name="message" placeholder="Опишите персонажей, сцену или действие..." rows="3" class="chat-form__textarea"></textarea>
+            <div class="chat-form__bottom">
+                <button class="chat-form__button" type="submit">-&gt;</button>
+            </div>
+        </form>
+    </div>
+</main>
+</body>
+</html>
